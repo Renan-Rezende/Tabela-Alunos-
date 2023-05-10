@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(46, 46, 46);
+  font-size: larger;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: solid red 3px;
+  padding: 8px;
+}
+
+th {
+  border: solid red 2px;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+  border: solid red 2px;
+}
+
+button {
+  border-bottom: black;
+  background-color: aqua;
+  padding: 10px;
+  width: 150px;
+}
