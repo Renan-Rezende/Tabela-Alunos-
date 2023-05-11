@@ -9,6 +9,33 @@
   </head>
 
   <body>
+    <div class="forms">
+      <div>
+        <label for="matricula">Digite a matricula do aluno</label>
+        <input type="text" name="matricula" id="matricula" />
+      </div>
+      <div>
+        <label for="nome">Digite o nome do aluno</label>
+        <input type="text" name="nome" id="nome" />
+      </div>
+      <div>
+        <label for="faltas">Digite o numero de faltas do aluno</label>
+        <input type="text" name="faltas" id="faltas" />
+      </div>
+      <div>
+        <label for="P1">Digite a nota da P1 do aluno</label>
+        <input type="text" name="P1" id="P1" />
+      </div>
+      <div>
+        <label for="P2">Digite a nota da P2 do aluno</label>
+        <input type="text" name="P2" id="P2" />
+      </div>
+      <div>
+        <label for="PR">Digite a nota da PR do aluno</label>
+        <input type="text" name="PR" id="PR" />
+      </div>
+    </div>
+
     <table>
       <thead>
         <th>Maticula</th>
@@ -35,7 +62,9 @@
         </tr>
       </tbody>
     </table>
+
     <button onclick="InserirAluno()">Adicionar Aluno</button>
+
     <script src="script.js"></script>
   </body>
 </html>
